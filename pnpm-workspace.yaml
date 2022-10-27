@@ -1,0 +1,4 @@
+packages:
+  - "packages/client-web"
+  - "packages/server-api"
+  - "packages/server-client"

@@ -1,0 +1,76 @@
+{
+  "name": "@midwayjs-examples/applicaiton-express",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production node bootstrap.js",
+    "start-prof": "NODE_ENV=production node --prof bootstrap.js",
+    "dev": "cross-env NODE_ENV=local midway-bin dev --ts",
+    "test": "midway-bin test --ts",
+    "cov": "midway-bin cov --ts",
+    "lint": "eslint src --ext .ts,.tsx",
+    "ci": "npm run cov",
+    "build": "midway-bin build -c",
+    "check": "luckyeye",
+    "prettier": "prettier -l --write './src/**/*.{ts,tsx,less,css}'",
+    "prettier-check": "prettier -l './src/**/*.{ts,tsx,less,css}'",
+    "unittest": "jest --silent"
+  },
+  "dependencies": {
+    "@koa/cors": "3.1.0",
+    "@midwayjs/bootstrap": "^2.12.3",
+    "@midwayjs/core": "^2.12.3",
+    "@midwayjs/decorator": "^2.12.3",
+    "@midwayjs/koa": "^2.12.3",
+    "@midwayjs/logger": "^2.16.3",
+    "@midwayjs/orm": "^2.12.3",
+    "axios": "0.21.1",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa-bodyparser": "4.3.0",
+    "lodash": "4.17.21",
+    "multer": "1.4.4",
+    "mysql": "2.18.1",
+    "reflect-metadata": "0.1.13",
+    "typeorm": "0.2.31"
+  },
+  "devDependencies": {
+    "@midwayjs/cli": "1.2.78",
+    "@midwayjs/luckyeye": "1.0.2",
+    "@midwayjs/mock": "2.12.3",
+    "@types/jest": "26.0.20",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/lodash": "4.14.168",
+    "@types/lru-cache": "^5.1.1",
+    "@types/multer": "1.4.7",
+    "@types/node": "14",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "cross-env": "6.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "26.6.3",
+    "mwts": "1.1.2",
+    "prettier": "^2.7.1",
+    "ts-jest": "26.5.2",
+    "typescript": "4.1.6"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "midway-bin-clean": [
+    ".vscode/.tsbuildinfo",
+    "dist"
+  ],
+  "midway-luckyeye": {
+    "packages": [
+      "midway_v2"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "anonymous",
+  "license": "MIT"
+}

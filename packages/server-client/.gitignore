@@ -1,0 +1,15 @@
+.idea
+.vs_code
+
+# 生产配置不入 git 记录
+deploy/config/config.prd.json
+resource/config.default.json
+
+node_modules
+dist
+logs
+temp
+tmp
+data
+
+*.log

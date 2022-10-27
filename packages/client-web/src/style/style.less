@@ -1,0 +1,34 @@
+@import "node_modules/antd/dist/antd.less";
+@import "node_modules/antd/lib/style/themes/default.less";
+@import "variable.less";
+
+html {
+  height: auto;
+
+  body {
+    //noinspection CssInvalidPropertyValue
+    overflow-y: overlay;
+  }
+}
+
+* {
+  word-break: break-all;
+}
+
+// antd 全局覆盖
+.ant-popover-buttons {
+  text-align: center;
+}
+
+.ant-btn-dangerous.ant-btn-primary[disabled],
+.ant-btn-dangerous.ant-btn-primary[disabled]:hover,
+.ant-btn-dangerous.ant-btn-primary[disabled]:focus,
+.ant-btn-dangerous.ant-btn-primary[disabled]:active {
+  color: #f9a7a7;
+  background-color: #fef0f0;
+  border-color: #fde2e2;
+}
+
+.danger {
+  color: #ff4d4f;
+}

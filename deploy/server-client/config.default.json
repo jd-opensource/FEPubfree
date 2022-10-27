@@ -1,0 +1,15 @@
+{
+  "mysql": {
+    "enable": true,
+    "options": {
+      "host": "host.docker.internal",
+      "port": 3306,
+      "database": "pubfree_open",
+      "username": "root",
+      "password": "root"
+    }
+  },
+  "schedule": {
+    "enable": true
+  }
+}

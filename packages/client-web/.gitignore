@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.vscode
+
+dist
+build
+
+config/spark-builder-config.json
+config/webpack.dev.js
+
+script/publish/oss-token.json
+
+node_modules
+package-lock.json

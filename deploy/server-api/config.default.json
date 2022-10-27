@@ -1,0 +1,9 @@
+{
+  "orm": {
+    "host": "host.docker.internal",
+    "port": 3306,
+    "database": "pubfree_open",
+    "username": "root",
+    "password": "root"
+  }
+}
