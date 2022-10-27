@@ -1,5 +1,6 @@
 {
-  "name": "node-ducc",
+  "name": "pubfree-client",
+  "version": "1.0.0",
   "scripts": {
     "dev": "nodemon --exec ts-node -T src/index.ts",
     "build": "rm -rf dist && tsc",

@@ -1,7 +1,6 @@
 {
   "name": "pubfree-web",
   "version": "1.0.0",
-  "description": "pubfree release platform",
   "scripts": {
     "prettier": "prettier -l --write 'src/**/*.{ts,tsx,js,jsx,less,css}'",
     "prettier-check": "prettier -l 'src/**/*.{ts,tsx,less,css}'",
