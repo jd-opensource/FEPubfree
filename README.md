@@ -45,7 +45,7 @@ pnpm install
 ````
 &nbsp;
 ### 数据库建表
-将 open-source/packages/server-api/script/sql/init.sql 文件中的sql 语句复制到 MySQL 中运行，建立服务所需的基本数据库表。
+将 open-source/packages/server-api/script/sql/init.sql 文件中的 sql 语句复制到 MySQL 中运行，建立服务所需的基本数据库表。
 &nbsp;
 ### 运行 server-api
 在 open-source/packages/server-api/resource 下新建 config.default.json，并配置数据库等信息
@@ -119,4 +119,4 @@ pnpm dev
 ![image](https://img14.360buyimg.com/imagetools/jfs/t1/109768/38/33231/62656/635a3dd6E287d9b3c/482c3616706297ed.png)
 &nbsp;
 ## License
-[MIT © JD.com, Inc.](./LISENCE)
+[MIT © JD.com, Inc.](./LICENSE)
